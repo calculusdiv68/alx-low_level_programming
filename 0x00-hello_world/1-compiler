@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -c mv main.c main.o
-
+gcc -c $CFILE > main.o
