@@ -1,16 +1,14 @@
-#include <stdio.h>
+#include <stdin.h>
 
 /**
- ;l*Main-return 0
+ *main - return inputed code
  *
  *Description - main returns 0
- *Puts - Write and prints out a string to stdout
- *Return : 0(success)
+ *Puts - Writes string and newline to stdout
+ *return: 0
  */
-
 int main(void)
 {
-  puts("\"Programming is like building a multilingual puzzle\n");
+  puts("\"Programming is like building a multilingual puzzle");
   return (0);
-
 }
