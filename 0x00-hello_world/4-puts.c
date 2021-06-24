@@ -4,7 +4,7 @@
  *@void - return 0
  *Description - main returns 0
  *Puts - Writes string and newline to stdout
- *return: "Programming is like building a mutiligual puzzle
+ *Return: 0
  */
 int main(void)
 {
