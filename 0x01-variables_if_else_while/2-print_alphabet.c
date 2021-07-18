@@ -8,10 +8,12 @@
  */
 int main(void)
 {
-char a = 'a'
-while (a <= 'z')
+char a;
+for (a = 'a' a <= 'z'; a++)
 {
-putchar(a'\n');
-a++
-return(0);
+putchar(a);
+}
+putchar('\n')
+}
+return (0);
 }
