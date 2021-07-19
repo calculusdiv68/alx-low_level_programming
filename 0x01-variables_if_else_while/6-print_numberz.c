@@ -3,7 +3,7 @@
  *main - returns 0
  *
  *Description - Single digits of base 10
- *Putchar prints 
+ *Putchar prints
  *
  *Return: 0
  */
