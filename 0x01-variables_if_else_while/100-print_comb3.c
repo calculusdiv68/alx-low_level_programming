@@ -7,16 +7,21 @@
 int main(void)
 {
 int a, b;
-for (a =0; a < 10; a++)
+for (a =48; a < 58; a++)
 {
-for (b = 0; b < 10; b++)
+for (b = 48; b < 58; b++)
 {
-if (a < b)
+if (a  ==  b)
 {
+continue;
+}
 putchar(a);
 putchar(b);
+if (a == 56 && b == 57)
+{
+break;
 }
-if (a != 8 || ( a == 8 && b != 9))
+ else
 {
 putchar(',');
 putchar(' ');
