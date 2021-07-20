@@ -21,9 +21,9 @@ putchar(c);
 if ((a == 55) && (b == 56) && (c == 57))
 {
 putchar('\n');
-a++
-b++
-c++
+a++;
+b++;
+c++;
 }
 else
 {
