@@ -8,10 +8,10 @@
 int main(void)
 {
 int i, j;
-for (i = 0; i <= 98; i++;)
+for (i = 0; i <= 98; i++)
 {
-putchar(1 / 10) + '0');
-putchar(i % 10) + '0');
+putchar((i / 10) + '0');
+putchar((i % 10) + '0');
 putchar(' ');
 putchar((j / 10) + '0');
 putchar((j % 10) + '0');
