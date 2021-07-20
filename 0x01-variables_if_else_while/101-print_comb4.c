@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
+ * main -returns 0
  *
- *main -returns 0
- *
- *Description - combo trio
+ * Description - main returns 0 in combo trio
  *
  * Return: 0
  */
