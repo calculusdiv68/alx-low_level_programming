@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-int i, j
-for (i = 0; i <= 98; i++)
+int i, j;
+for (i = 0; i <= 98; i++;)
 {
 putchar(1 / 10) + '0');
 putchar(i % 10) + '0');
