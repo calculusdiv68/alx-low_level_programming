@@ -1,32 +1,52 @@
-#include "main.h"
-/**
- * main - Prints first 50 numbers of the fibonacci sequence
- *
- * Return: 0
- */
+#include<stdio.h>
 
+/**
+ * main - first 50 fibonatchi.
+ *
+ * Return: void.
+ */
 int main(void)
 {
-	int a;
-	long first, second, tsum;
+	long int a, b, s, i;
 
-	first = 1;
-	second = 2;
-	
-
-	for (a = 0; a < 50; a++)
+	a = 1;
+	b = 2;
+	s = 3;
+	printf("%ld, ", a);
+	printf("%ld, ", b);
+	for (i = 3; i < 50; i++)
 	{
-		if (i == 49)
-		{
-			printf("%lu", first);
-		} else
-		{
-			printf("%lu, ", first);
-			tsum = first + second;
-			first = second;
-			second = tsum;
-		}
+		printf("%ld, ", s);
+		a = b;
+		b = s;
+		s = a + b;
 	}
-	printf("\n");
+	printf("%ld\n", s);
+
+	return (0);
+}#include<stdio.h>
+
+/**
+ * main - first 50 fibonatchi.
+ *
+ * Return: void.
+ */
+int main(void)
+{
+	long int a, b, s, i;
+
+	a = 1;
+	b = 2;
+	s = 3;
+	printf("%ld, ", a);
+	printf("%ld, ", b);
+	for (i = 3; i < 50; i++)
+	{
+		printf("%ld, ", s);
+		a = b;
+		b = s;
+		s = a + b;
+		printf("%ld\n", s);
+	}
 	return (0);
 }
