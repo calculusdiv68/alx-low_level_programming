@@ -14,7 +14,7 @@ int main(void)
 	second = 2;
 	
 
-	for (i = 0; i < 50; i++)
+	for (a = 0; a < 50; a++)
 	{
 		if (i == 49)
 		{
